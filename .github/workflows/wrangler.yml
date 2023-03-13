@@ -44,7 +44,7 @@ jobs:
           OPEN_COLLECTIVE_CLIENT_SECRET: ${{ secrets.OC_SECRET }}
           DISCORD_CLIENT_ID: ${{ secrets.DC_CLIENT_ID }}
           DISCORD_CLIENT_SECRET: ${{ secrets.DC_CLIENT_SECRET }}
-          DISCORD_WEBHOOK_URL: ""
+          DISCORD_WEBHOOK_URL: ${{ secrets.DC_WEBHOOK_URL }}
           SECRET_KEY: ${{ secrets.SECRET_KEY }}
           OPEN_COLLECTIVE_REDIRECT_URL: "https://link.tako-bot.com/open-collective/redirect"
           DISCORD_REDIRECT_URL: "https://link.tako-bot.com/discord/redirect"
